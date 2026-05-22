@@ -1,0 +1,67 @@
+.settings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  padding: 0;
+  margin-top: 32px;
+}
+
+.settings-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.settings-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.settings-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--bg-tertiary);
+  border-radius: 10px;
+  padding: 8px 12px;
+  border: 2px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.settings-input-wrapper:focus-within {
+  border-color: var(--accent-focus);
+  background-color: var(--bg-secondary);
+}
+
+.settings-input {
+  flex: 1;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+  color: var(--text-primary);
+  outline: none;
+  text-align: center;
+}
+
+.settings-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.settings-unit {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .settings {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 24px;
+  }
+}

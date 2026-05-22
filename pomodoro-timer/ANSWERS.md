@@ -355,4 +355,6 @@ Thank you.
 
 
 ## 5. Flaws and How to Improve
-There are multiple gaps I think, especially that ML feature, It can be scaled very much with specific user habits, with continous training loop.
+There are multiple gaps I think, especially that ML feature, It can be scaled very much with specific user habits, with continous training loop. Apart from that the UI ofcourse, I can't say much about it because I don't know much about it. I could have dug a little deeper, but exam season didn't let me.
+
+That's it, the ML part mainly.
